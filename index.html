@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>O que é Nostr?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <section class="">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand text-light mx-5" href="#"><strong id="menu">NOSTR</strong> em português</a>
+    </nav>
+  </section>
+
+  <div class="container mt-5">
+    <div class="jumbotron">
+      <h1 class="display-4">O que é Nostr?</h1>
+      <p>Notes and Other Stuff Transmitted by Relays (Notas e outras coisas transmitidas por retransmissores)</p>
+      <p>Nostr é simplismente um <strong class="rato">protocolo</strong> que permite criar aplicações descentralizadas e resistente a censura.
+  
+      Nostr não é um protocolo peer-to-peer e nem uma blockchain, é baseado em relays, por isso segundo o <a href="https://twitter.com/fiatjaf" target="_blank">Fiatjaf</a> o criador do protocolo, funciona.</p>
+
+
+     <h1 class="display-4">O que são Relays?</h1>
+          <p>Relays são simplismente servidores, da mesma forma que existe servidores do Instagram onde as nossas postagens são armazenadas, no Nostr quando criamos um evento(podem ser posts), esse evento é armazenado e transmitidos pelos Relays a qual estamos conectados e os outros usuárrios do protocolo teram acesso as postagens desde que estejam conectados a pelo menos um dos nossos relays.</p>
+
+          <p>Com o Nostr, para o sujeito <strong>A</strong> ter acesso ao evento do sujeito <strong>B</strong> terão que estar ligados a pelo menos um mesmo relay. </p>
+
+          <div class="text-center"><img src="img/relays.jpeg" alt="Lista de relays" class="img-fluid w-50 p-2"></div>
+          <p class="text-center legenda">Minha lista de relays - Damus </p>
+
+          <p>A grande vantagem do Nostr é que qualquer pessoa pode criar um relay e qualquer <strong>Cliente</strong>(aplicação criada em cima do protocolo) dá aos usuários a possibilidade de adiconar mais do que um relay. Os usuários do protololo não precisam usar a mesma aplicação ( Cliente) para terem acesso as postagens.</p> 
+     
+        <h1 class="display-4">O que são Clientes?</h1>
+          <p>Em Nostr, <strong>Clientes</strong> são basicamente aplicações. Podem ser redes sociais, jogos, aplicações de mensagens e muitas outras. 
+            
+          A inovação aqui é que independente do <strong>Cliente</strong> que estivermos a usar, teremos acesso aos mesmos conteúdos. Imagina o Instagram ir a baixo e simplismente abrir o twitter e continuar aquela conversa que estava a ter com os seu amigos no direct, e ter acesso aos mesmos conteúdos, mesmos seguidores, mesmos grupos e as mesmas publicações. Com o Nostr, tudo que postamos num cliente, temos acesso automaticamente no outro.</p>
+
+        <div class="row pt-5">
+        <div class="col-sm-12 text-center">
+          <img class="img-fluid w-50 " src="img/Astra.jpg" alt="">
+          <p class="text-center legenda">Cliente web <a href="https://astral.ninja/" target="_blank">Astra-Ninja</a></p>
+        </div>
+        <div class="col-sm-12 text-center">
+         <img src="img/damus-1.jpeg" alt="" class="img-fluid w-50">
+         <p class="text-center legenda">
+          Cliente App <a href="https://damus.io" target="_blank">IOS Damus</a>
+         </p>
+        </div>
+        </div>
+
+        <h1 class="display-4">Como se resgistar?</h1>
+        <p>Outra argumanto fantástico para Nostr é a privacidade, não precisamos criar uma conta nem precisamos associar a nossa identidade, funciona exatamento com a <strong>bitcoin</strong>, atravéz de uma par de chaves, privada e pública.</p>
+
+        <p>A chave pública é como se fosse o nosso nome de utilizador, é atravéz dela que outros usuários conseguem se conectar connosco no protocolo.</p>
+
+        <div class="text-center"><img class="img-fluid w-50" src="img/public-key.png" alt="">
+        <p class="text-center legenda">Chave pública de Jack Dorsey</p></div>
+
+        <p>Atualmente foi implementada uma funcionalidade chamada <strong>NIP-05</strong> a qual nos permite utilizar endereços semelhantes a endereços de email assossiados a nossa chave privada.</p>
+
+        <div class="text-center"><img class="img-fluid w-50" src="img/damus-1.jpeg" alt=" identificador NIP-05">
+          <p class="text-center legenda">nonokomoto@nostrplebs.com</p></div>
+
+        <p>Enquanto isso a chave privada deve ser mantido em segredo uma vez que nos permite aceder a nossa conta em qualquer <strong>Cliente</strong>. Pensa na Chave Privada como uma password.</p>
+    
+      </div>
+    </div>
+  
+    <footer class="bg-dark p-5">
+      <p>&copy; <script>document.write(new Date().getFullYear())</script> Todos direitos reservados| <a href="https://twitter.com/nonokomoto" target="_blank">Nonokomoto</a></p>
+    </a>
+    <a href="https://twitter.com/nonokomoto" target="_blank"><i class="bi bi-twitter  mx-1"></i></a>
+    <a href="https://www.linkedin.com/in/ney-carvalho-19200a140/" target="_blank"><i class="bi bi-linkedin mx-1"></i></a>
+    <a href="https://instagram.com/nonokomoto_" target="_blank"><i class="bi bi-instagram mx-1"></i></a>
+  </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+  </body>
+
+</body>
+</html>

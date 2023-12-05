@@ -4,6 +4,22 @@
     background-color: #7a36ae;
 }
 
+.sidebar {
+    padding: 5rem;
+    position: fixed; /* Fixa a barra lateral */
+    width: 200px; /* Largura da barra lateral */
+    height: 100vh; /* Altura total da janela de visualização */
+    overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for longo */
+    
+}
+
+.main-content {
+    padding-top: 3rem;
+    margin-left: 200px; /* Desloca o conteúdo principal para a direita */
+    flex-grow: 1; /* Permite que o conteúdo principal preencha o espaço restante */
+    text-align: justify;
+    
+}
 
 
 footer{
